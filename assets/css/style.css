@@ -1,0 +1,467 @@
+.tracker {
+  position: fixed;
+  bottom: 0; 
+  right: 0;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+.social {
+  margin: 0 auto;
+  width: auto;
+  text-align: inherit;
+}
+
+.icon-btn {
+  margin-left: auto;
+  width: 50px;
+  height: 50px;
+  border: 0;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 30px;
+  line-height: 70px;
+  border-radius: 45px;
+  display: inline-block;
+  margin: 4px;
+}
+
+.github {
+  color: black;
+}
+
+.linkedin {
+  color: #0077b5;
+}
+
+.angellist {
+  color: grey;
+}
+
+.icon-btn:hover {
+  transform: scale(1.10);
+  color: #FFFFFF;
+}
+
+.linkedin:hover {
+  background-color: #0077b5;
+}
+
+.angellist:hover {
+  background-color: grey;
+}
+
+.github:hover {
+  background-color: black;
+}
+
+.readme {
+  position: relative;
+  padding: 11px 35px;
+  background: #fff;
+  color: #87CEEB;
+  border: 2px solid #fff;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.contactme {
+  position: relative;
+  padding: 11px 35px;
+  background: none;
+  color: #fff;
+  border: 2px solid #fff;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-top: 1.5em;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.contactme:hover{
+  color: #87CEEB;
+  background-color: white;
+}
+
+body {
+  color: #333;
+  font-size: 18px;
+}
+
+a {
+  color: #87CEEB;
+}
+
+blockquote {
+  border-left: 5px solid #795548;
+  color: #795548;
+  font-size: 125%;
+  font-weight: 400;
+  margin: 20px 0;
+  padding-left: 1.5rem;
+}
+
+blockquote * {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.text-center {
+  text-align: center;
+}
+
+nav {
+  background: transparent;
+  box-shadow: none;
+  height: auto;
+  width: auto;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+ul.side-nav {
+  width: auto;
+  background: transparent;
+}
+
+ul.side-nav.fixed {
+  background: transparent;
+}
+
+ul.side-nav.fixed li.logo {
+  background-color: transparent;
+  border-bottom: none;
+  box-sizing: content-box;
+  padding: 0;
+}
+
+.profile-pic {
+  position: relative;
+  max-width: 195px;
+  max-height: 195px;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  margin: 0;
+  border: 9px solid rgba(135, 206, 235, 0.4);
+  border-radius: 50% !important;
+}
+
+.profile-pic img {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  padding-left: 0;
+}
+
+#intro.section {
+  background: url("/assets/img/iceberg.jpg") no-repeat top center/cover;
+  position: relative;
+  padding-top: 225px;
+  min-height: 100vh;
+}
+
+#intro.section .container {
+  color: white;
+  font-weight: 200;
+  position: relative;
+}
+
+#intro.section .container *:not(span) {
+  font-weight: 300;
+  line-height: 150%;
+  padding: 0 10px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.waves-effect.waves-blue .waves-ripple {
+  background-color: rgba(33, 150, 243, 0.2);
+}
+
+h3 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.card {
+  margin-bottom: 60px;
+  display: block; /* Ensure cards are stacked vertically */
+}
+
+.card .role {
+  font-size: 1.25rem;
+  position: absolute;
+  right: 38px;
+  top: 35px;
+}
+
+.card li a {
+  margin-right: 0;
+  color: #333;
+  border-bottom: 2px solid #ffab40;
+}
+
+.card li a:hover {
+  color: #333;
+  font-weight: 500;
+}
+
+.card .card-content {
+  padding-bottom: 30px;
+}
+
+.card .card-content p {
+  padding: 5px 0 0;
+}
+
+.card h5 {
+  font-size: 1.5rem;
+  margin-bottom: -0.5rem;
+  margin-top: 2rem;
+}
+
+.card h6 {
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+#experience .card-action {
+  background-color: rgba(0, 0, 0, 0.02);
+  border: none;
+}
+
+#experience .card .col.s12.m2 a {
+  display: block;
+}
+
+#experience .card .col.s12.m2 a img {
+  max-height: 60px;
+}
+
+.card-action span {
+  font-size: 85%;
+  color: #666;
+}
+
+.card ul {
+  margin-bottom: 0;
+}
+
+.card ul li {
+  line-height: 200%;
+  list-style-type: disc;
+  margin-left: 24px;
+}
+
+.card ul li li {
+  color: #666;
+  font-size: 13px;
+}
+
+.card .card-title {
+  font-size: 24px;
+}
+
+.card .card-content .card-title {
+  line-height: 2.5rem;
+}
+
+.card i.right {
+  margin-left: 10px;
+}
+
+a.hoverline {
+  border-bottom: 3px solid transparent !important;
+  padding: 3px 3px 0 3px;
+  transition: 0.25s all;
+  -moz-transition: 0.25s all;
+  -webkit-transition: 0.25s all;
+}
+
+a.hoverline:hover {
+  border-bottom: 3px solid #87CEEB !important;
+}
+
+#skills .card.large {
+  height: auto; /* Allow cards to adjust to content */
+}
+
+#skills h4 {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+#skills .col img.responsive-img {
+  margin: 0 auto;
+  max-height: 100px;
+  padding-bottom: 10px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.card.large .card-content p {
+  color: inherit;
+  margin: 0;
+  padding: 30px 0;
+}
+
+#experience .card-content .row {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.card.large .card-image {
+  height: auto; /* Allow image to adjust to its natural size */
+}
+
+.card.large .card-content {
+  height: auto;
+}
+
+.card.medium .card-image {
+  height: auto; /* Allow image to adjust to its natural size */
+}
+
+.card-action a.btn-floating {
+  margin-bottom: 0;
+}
+
+#contact a:not(.btn-floating) {
+  bottom: 6px;
+  left: 20px;
+  position: relative;
+}
+
+#experience .col.s12.m2 {
+  text-align: center;
+}
+
+.fa-external-link:before {
+  left: 3px;
+  position: relative;
+  top: 2px;
+}
+
+small {
+  display: none;
+}
+
+.grey-text {
+  color: #666 !important;
+}
+
+.teal-text {
+  color: #87CEEB !important;
+}
+
+.teal {
+  background-color: #87CEEB !important;
+}
+
+.certificate-card {
+  height: auto; /* Card adjusts based on content */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-image {
+  height: 250px; /* Fixed height for card image container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.certificate-img {
+  max-width: 400%; /* Image width adapts to the container width */
+  max-height: 300%; /* Image height adapts to the container height */
+  object-fit: contain; /* Ensures the aspect ratio of the image is maintained */
+}
+
+.card-content {
+  text-align: center;
+  padding: 10px;
+}
+
+
+/* Remove any grid or flexbox layouts */
+.container, .row, .col {
+  display: block;
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  #experience .container {
+    width: 860px;
+  }
+}
+
+@media (max-width: 1360px) {
+  .card ul li {
+    font-size: 14px;
+    line-height: 200%;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 1160px) {
+  .card ul li {
+    line-height: 150%;
+  }
+}
+
+@media (max-width: 992px) {
+  main {
+    padding-left: 0;
+    padding-top: 0;
+  }
+  
+  nav {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    height: auto;
+    background: transparent;
+  }
+  
+  h3, .container {
+    position: relative;
+    top: 0;
+  }
+
+  #intro.section {
+    padding-top: 150px;
+  }
+
+  .profile-pic {
+    max-width: 150px;
+    max-height: 150px;
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
+}
