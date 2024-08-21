@@ -16,16 +16,16 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7  # Specify the Ruby version used for Jekyll
-
+          ruby-version: 3.0  # Specify a Ruby version >= 3.0.0
+      
+      - name: Install Bundler
+        run: gem install bundler
+      
       - name: Install dependencies
-        run: |
-          gem install bundler
-          bundle install
+        run: bundle install
 
       - name: Build Jekyll site
-        run: |
-          bundle exec jekyll build
+        run: bundle exec jekyll build
 
       - name: Deploy to GitHub Pages
         uses: actions/upload-pages-artifact@v1
